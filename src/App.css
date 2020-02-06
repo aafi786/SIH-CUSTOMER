@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+body{
+    /* background:#f8f8f8; */
+    font-family: 'Quicksand', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+    border-right: 5px solid #EF5969;
+    background: transparent
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2,h3,h4{
+    font-family: 'Quicksand', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-layout-sider-trigger{
+    background:#EF5969
 }
-
-.App-link {
-  color: #61dafb;
+.ant-menu-dark.ant-menu-inline .ant-menu-item, .ant-menu-dark.ant-menu-vertical .ant-menu-item, .ant-menu-dark.ant-menu-vertical-left .ant-menu-item, .ant-menu-dark.ant-menu-vertical-right .ant-menu-item{
+    height: 50px;
+    padding-top: 7px;
+    letter-spacing: 1px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.backg{
+    background: #FFD6D0;
+}
+.backg-p{
+    border:5px solid #f7f1e3;
+}
+.cover-heading{
+    font-family: 'Fredoka One', cursive;
+    margin-top: 30px;
+    font-size: 44px;
+    letter-spacing: 1px;
+    color: #333178;
+    float: left;
+}
+.img-at{
+    margin: 0 auto;
+}
+.cover-btn{
+    border: none;
+    color: #fff;
+    background:#EF5969;
+    border-radius: 20px;
+    margin-top:11px;
+    font-family: 'Quicksand', sans-serif;
+}
+.cover-btn-purple{
+    border: none;
+    color: #fff;
+    background:#333178;
+    border-radius: 20px;
+    margin-top:11px;
+    font-family: 'Quicksand', sans-serif;
+}
+.cover-btn-outline{
+    border: none;
+    color:#2c3e50;
+    border:1px solid #333178;
+    border-radius: 20px;
+    margin-top:11px;
+    font-family:'Quicksand', sans-serif;
+    margin-left:10px;
+   
+}
+.ant-tabs-ink-bar{
+    background-color: #EF5969;
+}
+.ant-tabs-nav .ant-tabs-tab-active{
+    color: #EF5969;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.ant-tabs-nav .ant-tabs-tab:hover{
+    color: #2c3e50;
+}
+.ic-size{
+    font-size: 20px;
+}
+.ant-modal-title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.ant-input:hover{
+    border-color: #EF5969;
+}
+.ant-input:focus{
+    box-shadow:0 0 0 2px rgba(239, 89, 105, 0.2);
+    border-color: #EF5969;
+}
+.label-title{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.ant-popover-title{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.app-title{
+    font-family: 'Fredoka One', cursive;
+    margin-left: 14px;
+    font-size: 40px;
+}
+.app-title-sm{
+    font-family: 'Fredoka One', cursive;
+    margin-left: 5px;
+    font-size: 40px;
 }
